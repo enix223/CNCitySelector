@@ -5,8 +5,5 @@ target 'CNCitySelector_Example' do
 
   target 'CNCitySelector_Tests' do
     inherit! :search_paths
-
-    pod 'Specta'
-    pod 'Expecta'
   end
 end

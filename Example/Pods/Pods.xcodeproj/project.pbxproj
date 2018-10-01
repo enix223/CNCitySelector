@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0991E6DF31504E122C8226F6D158D032 /* CNCitySelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B512B8DEF6F6E59F525D463C6FBB58 /* CNCitySelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D0B59A8DBFF25CAE6303EBA58ACC36B /* CNCitySelectDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B3FBB5A98B105F695A0261EE192030 /* CNCitySelectDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2844922DC1B35C5E5CA37F5830919274 /* CNCitySelectController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BDFFB704F79060D8984008F96860DB /* CNCitySelectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CE7054294A15307E7AAA9171165C062 /* CNCityCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E7BF2E084635D613A662BBD9A8A51289 /* CNCityCell.xib */; };
+		311339C578AB96F92F589E5AE4D3980F /* CNNavigateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F693C884ECE423BA19C53E1F50727 /* CNNavigateCell.m */; };
+		4298C44159E1F47087A1FD35AF9B3595 /* CNRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D03ECAF0C7D43E2B393A32D3C91D6727 /* CNRegion.m */; };
+		490C93E48F8736DCB3317D759361B1AD /* Pods-CNCitySelector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11580D8006798857D54FA43EA2A03A6 /* Pods-CNCitySelector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49145A6B18589761E3A01F6745F04BF3 /* cn-city-location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660251C019A6409C666AADC0D8860C35 /* cn-city-location@2x.png */; };
+		4EDED961F2A99487A6C702B79365F36B /* CNNavigateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 61064660EFED5FB3485ED2C11BDABECB /* CNNavigateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8E84C31BE93A808F4FA849721A79A7 /* CNNavigateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 749692DCDE4D63D2CD526896E4A30AAB /* CNNavigateItem.m */; };
+		5F43436F33D169DC358CCD00E89B12F6 /* 201607.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80EF85C75548572E765DBD2A6181F224 /* 201607.plist */; };
+		62834F1DEB97F17359D24BFB581E7D48 /* GB2260.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1AF49EB9DDDF95984DC490D26A27D3 /* GB2260.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6834851304D194B7EE2CBC0238AA24AE /* CNNavigateCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 72B5D3A2E1653793830B37D2F54CCBD7 /* CNNavigateCell.xib */; };
+		7A7F8C83D65455AA1DA84D41E4259871 /* CNCurrentCityCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B46D67DE16413F74FC07FC107518881 /* CNCurrentCityCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F98683DAE5782E482A3EB9CDEA80B8 /* CNCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B59615C791B169F733DD2C57DF5EF51 /* CNCityCell.m */; };
+		84D8B8A3523B2B616E64006E2B43E9AF /* CNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2123FA1F82001EF7BEFBE591F3CFB2E2 /* CNConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90827BD07557FCF8DA564CE3F5FFAE71 /* CNRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8FF2EC53D40D010672A171A9CB2743 /* CNRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C1FE810FF05C019440DBDFAB9ED184 /* Pods-CNCitySelector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C085686874D3BB89F1FF0F0BD943F69F /* Pods-CNCitySelector_Example-dummy.m */; };
+		98550C7902F85B86CFFA9A4FB009277D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		A1ED1C9A1B3D803872769E51A596C594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A3BC1159C3379F99E0DFFBE9FCFA3B04 /* CNNavigateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B5D3A2E1653793830B37D2F54CCBD7 /* CNNavigateCell.xib */; };
+		A572F037C756E9874D9D6251BB5961D9 /* CNNavigateItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B92C384808097A18BA1A6B05E7ACAC4B /* CNNavigateItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8CDF935EE1AB3652F11B0A53EFAAC5D /* cn-city-location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55397D994F37F345B827FF196276018B /* cn-city-location@3x.png */; };
+		ABB0CE7D42E9440E876B46E24289507B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B30B78CF8C042119ACE5F64397A4D2E1 /* CNCurrentCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F1DFA57661EB6986A79D6C2375D2E1 /* CNCurrentCityCell.xib */; };
+		B3883BDE99DFD6A645A655E65F7080A7 /* CNCityDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BE70A58D7C21BE77FBEFBED82D27E2 /* CNCityDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B3C0A65B7F2E8361754C36BAF43DD1 /* CNCurrentCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F8210F27BF674800E6E09421B74057 /* CNCurrentCityCell.m */; };
+		B752882A480B21221C7D69EB08C2DE0C /* CNCitySelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA53B187D06B212F0371CF4513247186 /* CNCitySelectController.m */; };
+		BAE5B1AE43E028B9492F396140617658 /* CNCitySelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5070D28A16B172A9D418AF6218CC956D /* CNCitySelector-dummy.m */; };
+		C5501A6C7F90D2CF241AEF36B3CCEFAF /* GB2260.m in Sources */ = {isa = PBXBuildFile; fileRef = FA087E9B5F77055FAB0BAC9B8596AEFD /* GB2260.m */; };
+		CE004D7A2412FBCD9CD89A0D99076754 /* CNCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7BF2E084635D613A662BBD9A8A51289 /* CNCityCell.xib */; };
+		DEF8D6F9B2136CE1C92A659E4BF41CD6 /* CNCityCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D65D68740E2F4521E16B78530188E82A /* CNCityCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22CB225C23525F3AB222A2B0125F904 /* CNCurrentCityCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E5F1DFA57661EB6986A79D6C2375D2E1 /* CNCurrentCityCell.xib */; };
+		E2B9935D638CC9865E1B0D755147D89C /* Pods-CNCitySelector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0DE7F32846D6C2B14129997526EFDF /* Pods-CNCitySelector_Tests-dummy.m */; };
+		E8D2A4AF13362D47E29EDE98205F8F3E /* hot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C127AC5AF1A74F6323EB327815EE7C1 /* hot.plist */; };
+		E92233BA0D4A023A5677D11052CB56C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		ED96125EABC33DCC506E8BE50B1FD439 /* Pods-CNCitySelector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAFC24D1C6B7C6A50A977AFA9A83E7B /* Pods-CNCitySelector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31CE8427ADAEB71EA8BC1F78E90D908 /* CNCitySelector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19A687D9718701B0619FA89A785F5566 /* CNCitySelector.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B1072EE595745180949389EE52DE52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8F3305050664D9A22D5C9CFB83F78A;
+			remoteInfo = CNCitySelector;
+		};
+		38267DFF6E7BFD873E72B950F9BD4EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B7F73354D0B9FDFF361AEBA4596757;
+			remoteInfo = "CNCitySelector-CNCitySelector";
+		};
+		590D89409F2FAA3163FF02F8BEFBD399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34739E31181C6806AA47A1DD284AF0C2;
+			remoteInfo = "Pods-CNCitySelector_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BE70A58D7C21BE77FBEFBED82D27E2 /* CNCityDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCityDatabase.h; path = CNCitySelector/Classes/CNCityDatabase.h; sourceTree = "<group>"; };
+		0C127AC5AF1A74F6323EB327815EE7C1 /* hot.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = hot.plist; sourceTree = "<group>"; };
+		1458C915D10F03A9EF3DE09006970D92 /* CNCitySelector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CNCitySelector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18BDFFB704F79060D8984008F96860DB /* CNCitySelectController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCitySelectController.h; path = CNCitySelector/Classes/CNCitySelectController.h; sourceTree = "<group>"; };
+		19A687D9718701B0619FA89A785F5566 /* CNCitySelector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CNCitySelector.bundle; path = "CNCitySelector-CNCitySelector.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B375A55EEF0A9AC6153B3C9D27DB0E7 /* Pods-CNCitySelector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNCitySelector_Tests.modulemap"; sourceTree = "<group>"; };
+		1B6AA07C0C82FE85B84D5FE6CA9EDFE5 /* Pods_CNCitySelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNCitySelector_Example.framework; path = "Pods-CNCitySelector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0DE7F32846D6C2B14129997526EFDF /* Pods-CNCitySelector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNCitySelector_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D58B9D6C6DAB53CE9A4C60500E0B0FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2123FA1F82001EF7BEFBE591F3CFB2E2 /* CNConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNConstants.h; path = CNCitySelector/Classes/CNConstants.h; sourceTree = "<group>"; };
+		352750FA5639A49630929F0404D15101 /* Pods-CNCitySelector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNCitySelector_Example-resources.sh"; sourceTree = "<group>"; };
+		363453E5F84C1CBDA1EB78464E907E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		38A309128E47028F109DB5E5E5DA083B /* Pods-CNCitySelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNCitySelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C8FF2EC53D40D010672A171A9CB2743 /* CNRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNRegion.h; path = CNCitySelector/Classes/CNRegion.h; sourceTree = "<group>"; };
+		3E9759CC5ACD2650DF2F2F563763556B /* CNCitySelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNCitySelector.modulemap; sourceTree = "<group>"; };
+		5070D28A16B172A9D418AF6218CC956D /* CNCitySelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNCitySelector-dummy.m"; sourceTree = "<group>"; };
+		55397D994F37F345B827FF196276018B /* cn-city-location@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cn-city-location@3x.png"; sourceTree = "<group>"; };
+		589B5E58EB07BF12495575D0A331BE12 /* Pods-CNCitySelector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNCitySelector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A1AF49EB9DDDF95984DC490D26A27D3 /* GB2260.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GB2260.h; path = CNCitySelector/Classes/GB2260.h; sourceTree = "<group>"; };
+		5B46D67DE16413F74FC07FC107518881 /* CNCurrentCityCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCurrentCityCell.h; path = CNCitySelector/Classes/CNCurrentCityCell.h; sourceTree = "<group>"; };
+		60B512B8DEF6F6E59F525D463C6FBB58 /* CNCitySelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNCitySelector-umbrella.h"; sourceTree = "<group>"; };
+		61064660EFED5FB3485ED2C11BDABECB /* CNNavigateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNNavigateCell.h; path = CNCitySelector/Classes/CNNavigateCell.h; sourceTree = "<group>"; };
+		660251C019A6409C666AADC0D8860C35 /* cn-city-location@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "cn-city-location@2x.png"; sourceTree = "<group>"; };
+		6B1899EBCC9598BD753F962438238AA9 /* Pods-CNCitySelector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNCitySelector_Tests-resources.sh"; sourceTree = "<group>"; };
+		6B59615C791B169F733DD2C57DF5EF51 /* CNCityCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNCityCell.m; path = CNCitySelector/Classes/CNCityCell.m; sourceTree = "<group>"; };
+		72B5D3A2E1653793830B37D2F54CCBD7 /* CNNavigateCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CNNavigateCell.xib; path = CNCitySelector/Classes/CNNavigateCell.xib; sourceTree = "<group>"; };
+		749692DCDE4D63D2CD526896E4A30AAB /* CNNavigateItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNNavigateItem.m; path = CNCitySelector/Classes/CNNavigateItem.m; sourceTree = "<group>"; };
+		756664604DE90469400967CDD110CC71 /* Pods-CNCitySelector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNCitySelector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77F8210F27BF674800E6E09421B74057 /* CNCurrentCityCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNCurrentCityCell.m; path = CNCitySelector/Classes/CNCurrentCityCell.m; sourceTree = "<group>"; };
+		80EF85C75548572E765DBD2A6181F224 /* 201607.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = 201607.plist; sourceTree = "<group>"; };
+		86DF8BCCFAF3C38817F292E0EB09DBA3 /* CNCitySelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CNCitySelector.framework; path = CNCitySelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F693C884ECE423BA19C53E1F50727 /* CNNavigateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNNavigateCell.m; path = CNCitySelector/Classes/CNNavigateCell.m; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E0A736F75D45EC5C100591BBDC9FBF /* Pods-CNCitySelector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNCitySelector_Example.modulemap"; sourceTree = "<group>"; };
+		99FCCC84F0AFFCE6273467F89978391A /* Pods-CNCitySelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNCitySelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E43364C3BA25B3B8F1B9082FCB140D8 /* Pods-CNCitySelector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNCitySelector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F82AC985974B100B0F6D425B8C83F5E /* Pods-CNCitySelector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNCitySelector_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A11580D8006798857D54FA43EA2A03A6 /* Pods-CNCitySelector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNCitySelector_Example-umbrella.h"; sourceTree = "<group>"; };
+		A509F3597570C7ADA9431523A607A8CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNCitySelector.xcconfig; sourceTree = "<group>"; };
+		AA490130A0BDE910DF8F041E202CC093 /* Pods_CNCitySelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNCitySelector_Tests.framework; path = "Pods-CNCitySelector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02BF17D15982FB9EDF4BE3FB593CF0A /* ResourceBundle-CNCitySelector-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CNCitySelector-Info.plist"; sourceTree = "<group>"; };
+		B5B3FBB5A98B105F695A0261EE192030 /* CNCitySelectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCitySelectDelegate.h; path = CNCitySelector/Classes/CNCitySelectDelegate.h; sourceTree = "<group>"; };
+		B92C384808097A18BA1A6B05E7ACAC4B /* CNNavigateItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNNavigateItem.h; path = CNCitySelector/Classes/CNNavigateItem.h; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C085686874D3BB89F1FF0F0BD943F69F /* Pods-CNCitySelector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNCitySelector_Example-dummy.m"; sourceTree = "<group>"; };
+		C88C36B27D4E6BE04BFD39B534E9788A /* Pods-CNCitySelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNCitySelector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D03ECAF0C7D43E2B393A32D3C91D6727 /* CNRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNRegion.m; path = CNCitySelector/Classes/CNRegion.m; sourceTree = "<group>"; };
+		D164EA5ADC36B802F96E15FE3BFE924D /* CNCitySelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNCitySelector-prefix.pch"; sourceTree = "<group>"; };
+		D65D68740E2F4521E16B78530188E82A /* CNCityCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNCityCell.h; path = CNCitySelector/Classes/CNCityCell.h; sourceTree = "<group>"; };
+		D9215E762F8F3CDB7479470579A29A60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA53B187D06B212F0371CF4513247186 /* CNCitySelectController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNCitySelectController.m; path = CNCitySelector/Classes/CNCitySelectController.m; sourceTree = "<group>"; };
+		E5F1DFA57661EB6986A79D6C2375D2E1 /* CNCurrentCityCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CNCurrentCityCell.xib; path = CNCitySelector/Classes/CNCurrentCityCell.xib; sourceTree = "<group>"; };
+		E7BF2E084635D613A662BBD9A8A51289 /* CNCityCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CNCityCell.xib; path = CNCitySelector/Classes/CNCityCell.xib; sourceTree = "<group>"; };
+		EBD5420A6EB43F617CF4220E967804FA /* Pods-CNCitySelector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNCitySelector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F476C59A1C1FEE518622D2AB2F126A91 /* Pods-CNCitySelector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNCitySelector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA087E9B5F77055FAB0BAC9B8596AEFD /* GB2260.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GB2260.m; path = CNCitySelector/Classes/GB2260.m; sourceTree = "<group>"; };
+		FB04BF7CC0E7FBB8454D0A9069D86EC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBAFC24D1C6B7C6A50A977AFA9A83E7B /* Pods-CNCitySelector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNCitySelector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC3A8C08BCADD9CFA69FE18C5B7572FB /* Pods-CNCitySelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNCitySelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CC70FD053265EDC7476CAC5AA17B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C41543134315C5D909E77C25471234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ED1C9A1B3D803872769E51A596C594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00654F93D19F18F1D43D88CD6FDF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB0CE7D42E9440E876B46E24289507B /* Foundation.framework in Frameworks */,
+				98550C7902F85B86CFFA9A4FB009277D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2815F78F21DB8896E002B002A2A3CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92233BA0D4A023A5677D11052CB56C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		23D0DB80D526E787DC3E75C689DF2D8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7788325F751795FF9DBE7EF40938A98 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		275ECA1C57578555D4A4B3D6E99592B1 /* Pods-CNCitySelector_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A509F3597570C7ADA9431523A607A8CB /* Info.plist */,
+				1B375A55EEF0A9AC6153B3C9D27DB0E7 /* Pods-CNCitySelector_Tests.modulemap */,
+				756664604DE90469400967CDD110CC71 /* Pods-CNCitySelector_Tests-acknowledgements.markdown */,
+				9E43364C3BA25B3B8F1B9082FCB140D8 /* Pods-CNCitySelector_Tests-acknowledgements.plist */,
+				1C0DE7F32846D6C2B14129997526EFDF /* Pods-CNCitySelector_Tests-dummy.m */,
+				9F82AC985974B100B0F6D425B8C83F5E /* Pods-CNCitySelector_Tests-frameworks.sh */,
+				6B1899EBCC9598BD753F962438238AA9 /* Pods-CNCitySelector_Tests-resources.sh */,
+				FBAFC24D1C6B7C6A50A977AFA9A83E7B /* Pods-CNCitySelector_Tests-umbrella.h */,
+				99FCCC84F0AFFCE6273467F89978391A /* Pods-CNCitySelector_Tests.debug.xcconfig */,
+				38A309128E47028F109DB5E5E5DA083B /* Pods-CNCitySelector_Tests.release.xcconfig */,
+			);
+			name = "Pods-CNCitySelector_Tests";
+			path = "Target Support Files/Pods-CNCitySelector_Tests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44FD2DADEC068B386715315E94DB6B06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D38F74FC5AC772E89FD66618A9BB42 /* CNCitySelector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		49B7EB4138B0534069250F0F801FCAAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3792FFF62CD7CF3472199A256A53F9 /* Pods-CNCitySelector_Example */,
+				275ECA1C57578555D4A4B3D6E99592B1 /* Pods-CNCitySelector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66B368D6494DA1D7CB07BA2039E58DB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9759CC5ACD2650DF2F2F563763556B /* CNCitySelector.modulemap */,
+				A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */,
+				5070D28A16B172A9D418AF6218CC956D /* CNCitySelector-dummy.m */,
+				D164EA5ADC36B802F96E15FE3BFE924D /* CNCitySelector-prefix.pch */,
+				60B512B8DEF6F6E59F525D463C6FBB58 /* CNCitySelector-umbrella.h */,
+				D9215E762F8F3CDB7479470579A29A60 /* Info.plist */,
+				B02BF17D15982FB9EDF4BE3FB593CF0A /* ResourceBundle-CNCitySelector-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CNCitySelector";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				44FD2DADEC068B386715315E94DB6B06 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FDE1C8A600DECB7EA04371F711CBF5F4 /* Products */,
+				49B7EB4138B0534069250F0F801FCAAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEBFA51816567930D67439BDDCC8039 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1458C915D10F03A9EF3DE09006970D92 /* CNCitySelector.podspec */,
+				FB04BF7CC0E7FBB8454D0A9069D86EC6 /* LICENSE */,
+				363453E5F84C1CBDA1EB78464E907E92 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B5D38F74FC5AC772E89FD66618A9BB42 /* CNCitySelector */ = {
+			isa = PBXGroup;
+			children = (
+				D65D68740E2F4521E16B78530188E82A /* CNCityCell.h */,
+				6B59615C791B169F733DD2C57DF5EF51 /* CNCityCell.m */,
+				E7BF2E084635D613A662BBD9A8A51289 /* CNCityCell.xib */,
+				09BE70A58D7C21BE77FBEFBED82D27E2 /* CNCityDatabase.h */,
+				18BDFFB704F79060D8984008F96860DB /* CNCitySelectController.h */,
+				DA53B187D06B212F0371CF4513247186 /* CNCitySelectController.m */,
+				B5B3FBB5A98B105F695A0261EE192030 /* CNCitySelectDelegate.h */,
+				2123FA1F82001EF7BEFBE591F3CFB2E2 /* CNConstants.h */,
+				5B46D67DE16413F74FC07FC107518881 /* CNCurrentCityCell.h */,
+				77F8210F27BF674800E6E09421B74057 /* CNCurrentCityCell.m */,
+				E5F1DFA57661EB6986A79D6C2375D2E1 /* CNCurrentCityCell.xib */,
+				61064660EFED5FB3485ED2C11BDABECB /* CNNavigateCell.h */,
+				8C8F693C884ECE423BA19C53E1F50727 /* CNNavigateCell.m */,
+				72B5D3A2E1653793830B37D2F54CCBD7 /* CNNavigateCell.xib */,
+				B92C384808097A18BA1A6B05E7ACAC4B /* CNNavigateItem.h */,
+				749692DCDE4D63D2CD526896E4A30AAB /* CNNavigateItem.m */,
+				3C8FF2EC53D40D010672A171A9CB2743 /* CNRegion.h */,
+				D03ECAF0C7D43E2B393A32D3C91D6727 /* CNRegion.m */,
+				5A1AF49EB9DDDF95984DC490D26A27D3 /* GB2260.h */,
+				FA087E9B5F77055FAB0BAC9B8596AEFD /* GB2260.m */,
+				ACEBFA51816567930D67439BDDCC8039 /* Pod */,
+				23D0DB80D526E787DC3E75C689DF2D8B /* Resources */,
+				66B368D6494DA1D7CB07BA2039E58DB4 /* Support Files */,
+			);
+			name = CNCitySelector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E7788325F751795FF9DBE7EF40938A98 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80EF85C75548572E765DBD2A6181F224 /* 201607.plist */,
+				660251C019A6409C666AADC0D8860C35 /* cn-city-location@2x.png */,
+				55397D994F37F345B827FF196276018B /* cn-city-location@3x.png */,
+				0C127AC5AF1A74F6323EB327815EE7C1 /* hot.plist */,
+			);
+			name = Assets;
+			path = CNCitySelector/Assets;
+			sourceTree = "<group>";
+		};
+		EC3792FFF62CD7CF3472199A256A53F9 /* Pods-CNCitySelector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1D58B9D6C6DAB53CE9A4C60500E0B0FF /* Info.plist */,
+				94E0A736F75D45EC5C100591BBDC9FBF /* Pods-CNCitySelector_Example.modulemap */,
+				F476C59A1C1FEE518622D2AB2F126A91 /* Pods-CNCitySelector_Example-acknowledgements.markdown */,
+				589B5E58EB07BF12495575D0A331BE12 /* Pods-CNCitySelector_Example-acknowledgements.plist */,
+				C085686874D3BB89F1FF0F0BD943F69F /* Pods-CNCitySelector_Example-dummy.m */,
+				EBD5420A6EB43F617CF4220E967804FA /* Pods-CNCitySelector_Example-frameworks.sh */,
+				352750FA5639A49630929F0404D15101 /* Pods-CNCitySelector_Example-resources.sh */,
+				A11580D8006798857D54FA43EA2A03A6 /* Pods-CNCitySelector_Example-umbrella.h */,
+				FC3A8C08BCADD9CFA69FE18C5B7572FB /* Pods-CNCitySelector_Example.debug.xcconfig */,
+				C88C36B27D4E6BE04BFD39B534E9788A /* Pods-CNCitySelector_Example.release.xcconfig */,
+			);
+			name = "Pods-CNCitySelector_Example";
+			path = "Target Support Files/Pods-CNCitySelector_Example";
+			sourceTree = "<group>";
+		};
+		FDE1C8A600DECB7EA04371F711CBF5F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A687D9718701B0619FA89A785F5566 /* CNCitySelector.bundle */,
+				86DF8BCCFAF3C38817F292E0EB09DBA3 /* CNCitySelector.framework */,
+				1B6AA07C0C82FE85B84D5FE6CA9EDFE5 /* Pods_CNCitySelector_Example.framework */,
+				AA490130A0BDE910DF8F041E202CC093 /* Pods_CNCitySelector_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20F193185CB0BF3A517AB2D1F307ADA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED96125EABC33DCC506E8BE50B1FD439 /* Pods-CNCitySelector_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD79BD3D37A5D7E7120474B382090156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C93E48F8736DCB3317D759361B1AD /* Pods-CNCitySelector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86390F1D99FC506AAFC2FA8EF0AC18D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF8D6F9B2136CE1C92A659E4BF41CD6 /* CNCityCell.h in Headers */,
+				B3883BDE99DFD6A645A655E65F7080A7 /* CNCityDatabase.h in Headers */,
+				2844922DC1B35C5E5CA37F5830919274 /* CNCitySelectController.h in Headers */,
+				1D0B59A8DBFF25CAE6303EBA58ACC36B /* CNCitySelectDelegate.h in Headers */,
+				0991E6DF31504E122C8226F6D158D032 /* CNCitySelector-umbrella.h in Headers */,
+				84D8B8A3523B2B616E64006E2B43E9AF /* CNConstants.h in Headers */,
+				7A7F8C83D65455AA1DA84D41E4259871 /* CNCurrentCityCell.h in Headers */,
+				4EDED961F2A99487A6C702B79365F36B /* CNNavigateCell.h in Headers */,
+				A572F037C756E9874D9D6251BB5961D9 /* CNNavigateItem.h in Headers */,
+				90827BD07557FCF8DA564CE3F5FFAE71 /* CNRegion.h in Headers */,
+				62834F1DEB97F17359D24BFB581E7D48 /* GB2260.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34739E31181C6806AA47A1DD284AF0C2 /* Pods-CNCitySelector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5D0A2A6F79CC188E39DBA174202359 /* Build configuration list for PBXNativeTarget "Pods-CNCitySelector_Example" */;
+			buildPhases = (
+				BD79BD3D37A5D7E7120474B382090156 /* Headers */,
+				D1B165DD39260C9A07B010E9BB31C119 /* Sources */,
+				F2815F78F21DB8896E002B002A2A3CBE /* Frameworks */,
+				29094A300EB2227A9C9ED82568B082E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09F51453162B4CAC7B0452D3F260FF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CNCitySelector_Example";
+			productName = "Pods-CNCitySelector_Example";
+			productReference = 1B6AA07C0C82FE85B84D5FE6CA9EDFE5 /* Pods_CNCitySelector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91B7F73354D0B9FDFF361AEBA4596757 /* CNCitySelector-CNCitySelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DF6490749297D5BE3A88D7482931D /* Build configuration list for PBXNativeTarget "CNCitySelector-CNCitySelector" */;
+			buildPhases = (
+				6F97EC6751AA1FDAE2DABE2C8947FFB3 /* Sources */,
+				50CC70FD053265EDC7476CAC5AA17B43 /* Frameworks */,
+				29B7572FA38EA0DA8773805439F67B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CNCitySelector-CNCitySelector";
+			productName = "CNCitySelector-CNCitySelector";
+			productReference = 19A687D9718701B0619FA89A785F5566 /* CNCitySelector.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DD8F3305050664D9A22D5C9CFB83F78A /* CNCitySelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAB10C28DA3A9B54E2613593B3CBBF4 /* Build configuration list for PBXNativeTarget "CNCitySelector" */;
+			buildPhases = (
+				D86390F1D99FC506AAFC2FA8EF0AC18D /* Headers */,
+				A13F677592B5AE7DFFE934AEAA9B29C9 /* Sources */,
+				EC00654F93D19F18F1D43D88CD6FDF8C /* Frameworks */,
+				A5238EF9F72824B6551692A066F14DCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA1D0900CF1F0284AFC7B0475E35C78 /* PBXTargetDependency */,
+			);
+			name = CNCitySelector;
+			productName = CNCitySelector;
+			productReference = 86DF8BCCFAF3C38817F292E0EB09DBA3 /* CNCitySelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F94D42102AB3B1CBAC4D5DA8BCDBBEBC /* Pods-CNCitySelector_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058D67E7146FA9D144A9F6D9683C670E /* Build configuration list for PBXNativeTarget "Pods-CNCitySelector_Tests" */;
+			buildPhases = (
+				20F193185CB0BF3A517AB2D1F307ADA1 /* Headers */,
+				1472DE624BE7EF047DF7BA3DED6B5185 /* Sources */,
+				B1C41543134315C5D909E77C25471234 /* Frameworks */,
+				2740647CEBFE21EAF599B00720F8A603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC6AF05E7A9509C5E111AB6A39F4446C /* PBXTargetDependency */,
+			);
+			name = "Pods-CNCitySelector_Tests";
+			productName = "Pods-CNCitySelector_Tests";
+			productReference = AA490130A0BDE910DF8F041E202CC093 /* Pods_CNCitySelector_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDE1C8A600DECB7EA04371F711CBF5F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8F3305050664D9A22D5C9CFB83F78A /* CNCitySelector */,
+				91B7F73354D0B9FDFF361AEBA4596757 /* CNCitySelector-CNCitySelector */,
+				34739E31181C6806AA47A1DD284AF0C2 /* Pods-CNCitySelector_Example */,
+				F94D42102AB3B1CBAC4D5DA8BCDBBEBC /* Pods-CNCitySelector_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2740647CEBFE21EAF599B00720F8A603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29094A300EB2227A9C9ED82568B082E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B7572FA38EA0DA8773805439F67B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F43436F33D169DC358CCD00E89B12F6 /* 201607.plist in Resources */,
+				49145A6B18589761E3A01F6745F04BF3 /* cn-city-location@2x.png in Resources */,
+				A8CDF935EE1AB3652F11B0A53EFAAC5D /* cn-city-location@3x.png in Resources */,
+				CE004D7A2412FBCD9CD89A0D99076754 /* CNCityCell.xib in Resources */,
+				B30B78CF8C042119ACE5F64397A4D2E1 /* CNCurrentCityCell.xib in Resources */,
+				A3BC1159C3379F99E0DFFBE9FCFA3B04 /* CNNavigateCell.xib in Resources */,
+				E8D2A4AF13362D47E29EDE98205F8F3E /* hot.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5238EF9F72824B6551692A066F14DCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31CE8427ADAEB71EA8BC1F78E90D908 /* CNCitySelector.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1472DE624BE7EF047DF7BA3DED6B5185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B9935D638CC9865E1B0D755147D89C /* Pods-CNCitySelector_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F97EC6751AA1FDAE2DABE2C8947FFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F677592B5AE7DFFE934AEAA9B29C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F98683DAE5782E482A3EB9CDEA80B8 /* CNCityCell.m in Sources */,
+				2CE7054294A15307E7AAA9171165C062 /* CNCityCell.xib in Sources */,
+				B752882A480B21221C7D69EB08C2DE0C /* CNCitySelectController.m in Sources */,
+				BAE5B1AE43E028B9492F396140617658 /* CNCitySelector-dummy.m in Sources */,
+				B4B3C0A65B7F2E8361754C36BAF43DD1 /* CNCurrentCityCell.m in Sources */,
+				E22CB225C23525F3AB222A2B0125F904 /* CNCurrentCityCell.xib in Sources */,
+				311339C578AB96F92F589E5AE4D3980F /* CNNavigateCell.m in Sources */,
+				6834851304D194B7EE2CBC0238AA24AE /* CNNavigateCell.xib in Sources */,
+				5C8E84C31BE93A808F4FA849721A79A7 /* CNNavigateItem.m in Sources */,
+				4298C44159E1F47087A1FD35AF9B3595 /* CNRegion.m in Sources */,
+				C5501A6C7F90D2CF241AEF36B3CCEFAF /* GB2260.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B165DD39260C9A07B010E9BB31C119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C1FE810FF05C019440DBDFAB9ED184 /* Pods-CNCitySelector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA1D0900CF1F0284AFC7B0475E35C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CNCitySelector-CNCitySelector";
+			target = 91B7F73354D0B9FDFF361AEBA4596757 /* CNCitySelector-CNCitySelector */;
+			targetProxy = 38267DFF6E7BFD873E72B950F9BD4EB4 /* PBXContainerItemProxy */;
+		};
+		AC6AF05E7A9509C5E111AB6A39F4446C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CNCitySelector_Example";
+			target = 34739E31181C6806AA47A1DD284AF0C2 /* Pods-CNCitySelector_Example */;
+			targetProxy = 590D89409F2FAA3163FF02F8BEFBD399 /* PBXContainerItemProxy */;
+		};
+		E09F51453162B4CAC7B0452D3F260FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNCitySelector;
+			target = DD8F3305050664D9A22D5C9CFB83F78A /* CNCitySelector */;
+			targetProxy = 10B1072EE595745180949389EE52DE52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A081965036C459BC1D6610DD7A7AFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3A8C08BCADD9CFA69FE18C5B7572FB /* Pods-CNCitySelector_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNCitySelector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNCitySelector_Example/Pods-CNCitySelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CAFB17A689BFF79C020978872F592CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FCCC84F0AFFCE6273467F89978391A /* Pods-CNCitySelector_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNCitySelector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNCitySelector_Tests/Pods-CNCitySelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58A34E2BD18412B9E50DB35D737B587D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CNCitySelector/CNCitySelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNCitySelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNCitySelector/CNCitySelector.modulemap";
+				PRODUCT_MODULE_NAME = CNCitySelector;
+				PRODUCT_NAME = CNCitySelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7730CB228FC5A52AF08CF247B6DEAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CNCitySelector";
+				INFOPLIST_FILE = "Target Support Files/CNCitySelector/ResourceBundle-CNCitySelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CNCitySelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AE307D80FC98F0B33A47DFA87A448D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CNCitySelector";
+				INFOPLIST_FILE = "Target Support Files/CNCitySelector/ResourceBundle-CNCitySelector-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CNCitySelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BA9A4BA055555186737276297D404048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D374D4E65E958F5A31F86D93477C4B /* CNCitySelector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CNCitySelector/CNCitySelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNCitySelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNCitySelector/CNCitySelector.modulemap";
+				PRODUCT_MODULE_NAME = CNCitySelector;
+				PRODUCT_NAME = CNCitySelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D46D8D640989CD84EF9116F9ACFB8A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88C36B27D4E6BE04BFD39B534E9788A /* Pods-CNCitySelector_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNCitySelector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNCitySelector_Example/Pods-CNCitySelector_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E973857D30CC2C41E0EFE8D4B33F4D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A309128E47028F109DB5E5E5DA083B /* Pods-CNCitySelector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CNCitySelector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CNCitySelector_Tests/Pods-CNCitySelector_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058D67E7146FA9D144A9F6D9683C670E /* Build configuration list for PBXNativeTarget "Pods-CNCitySelector_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAFB17A689BFF79C020978872F592CC /* Debug */,
+				E973857D30CC2C41E0EFE8D4B33F4D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5D0A2A6F79CC188E39DBA174202359 /* Build configuration list for PBXNativeTarget "Pods-CNCitySelector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A081965036C459BC1D6610DD7A7AFA3 /* Debug */,
+				D46D8D640989CD84EF9116F9ACFB8A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAB10C28DA3A9B54E2613593B3CBBF4 /* Build configuration list for PBXNativeTarget "CNCitySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A34E2BD18412B9E50DB35D737B587D /* Debug */,
+				BA9A4BA055555186737276297D404048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2DF6490749297D5BE3A88D7482931D /* Build configuration list for PBXNativeTarget "CNCitySelector-CNCitySelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7730CB228FC5A52AF08CF247B6DEAEC /* Debug */,
+				AE307D80FC98F0B33A47DFA87A448D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

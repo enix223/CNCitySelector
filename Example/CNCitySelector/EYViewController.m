@@ -8,7 +8,7 @@
 
 #import "EYViewController.h"
 
-@interface EYViewController ()
+@interface EYViewController () <CNCitySelectDelegate>
 
 @end
 
@@ -16,14 +16,30 @@
 
 - (void)viewDidLoad
 {
+    self.datasource = [GB2260 shardInstance];
+    self.delegate = self;
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"选择城市";
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)didSelectRegion:(CNRegion *)region {
+    NSLog(@"Select city: %@", region.name);
+    
+    NSString *title = [NSString stringWithFormat:@"选择城市: %@", region.name];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title
+                                                                   message:nil
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [alert dismissViewControllerAnimated:YES completion:nil];
+    });
+    
+    [self.datasource addRecentCity:region];
 }
 
 @end

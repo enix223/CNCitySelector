@@ -1,0 +1,16 @@
+PODS:
+  - CNCitySelector (1.0.0)
+
+DEPENDENCIES:
+  - CNCitySelector (from `../`)
+
+EXTERNAL SOURCES:
+  CNCitySelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CNCitySelector: c6a11810c0f7bc90a7f2b03a015321d79204e4d4
+
+PODFILE CHECKSUM: f3905ec635644bd153486c6a7c7ffd00c6bd3282
+
+COCOAPODS: 1.5.3

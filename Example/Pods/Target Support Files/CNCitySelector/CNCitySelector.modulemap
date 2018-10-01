@@ -1,0 +1,6 @@
+framework module CNCitySelector {
+  umbrella header "CNCitySelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

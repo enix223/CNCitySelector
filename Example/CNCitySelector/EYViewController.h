@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+@import CNCitySelector;
 
-@interface EYViewController : UIViewController
+@interface EYViewController : CNCitySelectController
 
 @end
