@@ -29,6 +29,5 @@ Pod::Spec.new do |s|
     'CNCitySelector' => ['CNCitySelector/Assets/**/*', 'CNCitySelector/Classes/*.xib']
   }
 
-  s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit'
 end
