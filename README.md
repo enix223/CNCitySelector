@@ -1,5 +1,7 @@
 # CNCitySelector
 
+开箱即用，一个零配置，快速集成的中国行政区域选择Controller
+
 ![Screen](https://github.com/enix223/CNCitySelector/blob/master/Example/Screenshot/screen.jpeg)
 
 ## Example
