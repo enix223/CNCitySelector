@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CNCitySelector_Example' do
+  pod 'CNCitySelector', :path => '../'
+
+  target 'CNCitySelector_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
