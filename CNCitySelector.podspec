@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.summary          = '一个零配置，快速集成的中国行政区域选择Controller'
   s.description      = <<-DESC
-一个零配置，快速集成的中国行政区域选择Controller
+一个零配置，快速集成的中国行政区域选择Controller, 开箱即用，非常方便。
                        DESC
 
   s.homepage         = 'https://github.com/enix223/CNCitySelector'
-  s.screenshots     = 'https://github.com/enix223/CNCitySelector/Screenshot/screen.jpeg'
+  s.screenshots     = 'https://github.com/enix223/CNCitySelector/raw/master/Example/Screenshot/screen.jpeg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Enix Yu' => 'enixyu@cloudesk.top' }
   s.source           = { :git => 'https://github.com/enix223/CNCitySelector.git', :tag => s.version.to_s }
@@ -29,6 +29,6 @@ Pod::Spec.new do |s|
     'CNCitySelector' => ['CNCitySelector/Assets/**/*', 'CNCitySelector/Classes/*.xib']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit'
 end
