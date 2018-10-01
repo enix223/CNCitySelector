@@ -1,9 +1,6 @@
 # CNCitySelector
 
-[![CI Status](https://img.shields.io/travis/Enix Yu/CNCitySelector.svg?style=flat)](https://travis-ci.org/Enix Yu/CNCitySelector)
-[![Version](https://img.shields.io/cocoapods/v/CNCitySelector.svg?style=flat)](https://cocoapods.org/pods/CNCitySelector)
-[![License](https://img.shields.io/cocoapods/l/CNCitySelector.svg?style=flat)](https://cocoapods.org/pods/CNCitySelector)
-[![Platform](https://img.shields.io/cocoapods/p/CNCitySelector.svg?style=flat)](https://cocoapods.org/pods/CNCitySelector)
+![Screen](https://github.com/enix223/CNCitySelector/blob/master/Example/Screenshot/screen.jpeg)
 
 ## Example
 
